@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding : 0;
+    }
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .fadeInUp {
+        animation-name: fadeInUp;
+        animation-duration: .45s;
+        animation-duration: .45s;
+    }
+    .Search {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .Search label {
+        margin-bottom: 1rem;
+        font-family: "archia";
+        font-size: .75rem;
+        color: #6c757d;
+    }
+    .Search .line {
+        width: 2px;
+        height: 1rem;
+        background: rgba(108,117,125,.0627451);
+    }
+    .Search input {
+        height: 2rem;
+        width: calc(100% - 4rem);
+        box-shadow: 0 10px 35px rgba(0,0,0,.1);
+        -webkit-box-shadow: 0 10px 35px rgba(0,0,0,.1);
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-family: "archia";
+        color: #6c757d;
+        padding: 1rem 1rem 1rem 3rem;
+        background: #fff;
+        transition: all .2s ease-in-out;
+    }
+    .header .actions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+    .Level {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        width: 30rem;
+    }
+    .Level .level-item:first-child {
+        margin-left: .5rem;
+    }
+    
+    .Level .level-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .Level .is-cherry h1, .Level .is-cherry h5 {
+        color: #ff073a;
+    }
+    .Level .is-cherry h4 {
+        color: rgba(228, 25, 65, 0.877);
+    }
+    .Level .level-item>* {
+        align-self: center;
+    }
+    .Level h5 {
+        font-weight: 600;
+        margin-bottom: 0;
+    
+    }
+    h5 {
+        font-family: "archia";
+        display: block;
+        font-size: 0.83em;
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    .Level .is-blue h1, .Level .is-blue h5 {
+        color: #007bff;
+    }
+    .Level .is-blue h4 {
+        color: rgba(0,123,255,.6);
+    }
+    .Level .is-green h1, .Level .is-green h5 {
+        color: #28a745;
+    }
+    .Level .is-green h4 {
+        color: rgba(40,167,69,.6);
+    }
+    .Level .is-gray h1, .Level .is-gray h5 {
+        color: #848a91;
+    }
+    .Level .is-gray h4 {
+        color: rgba(199, 208, 216, 0.6);
+    }
+    .Minigraph {
+        width: 30rem;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 -3rem;
+    }
+    .Minigraph .svg-parent {
+        width: 5rem;
+        background: transparent!important;
+        height: 7rem;
+        position: relative;
+    display: flex;
+    align-self: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    }
+    #nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    }
+    
+    .navbar{
+        background-image: linear-gradient(to right,#4c5e7a,#030b1d);
+        padding: 0 !important;
+    }
+    .navbar-brand{
+        padding-left: 20px;
+    }
+    .navbar-nav li
+    {
+        padding: 0 10px;
+    }
+    .navbar-nav li a{
+        color: #fff !important;
+        font-weight: 600;
+        float: right;
+        text-align: left;
+    }
+    .fa-bars{
+        color: #fff;
+        font-size: 30px !important;
+    }
+    .navbar-toggler{
+        outline: none !important;
+    }
+    #banner{
+        background-image: linear-gradient(to right,#4c5e7a,#030b1d);
+        color: #fff;
+        padding-top: 4%;
+    }
+    
+    .promo-title{
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 100px !important;
+        color: #fff !important;
+    }
+    .global{
+        position: relative;
+        padding-left: 20%;
+        margin-right: 200px;
+    }
+    .india{
+        margin-left: 250px;
+        position: relative;
+    }
+    .global-data{
+        position: relative;
+        margin-right: 10px;
+    }
+    .india-data{
+        position: relative;
+        padding-left: 60%;
+    }
+
+    #carouselExampleIndicators{
+        height: 400px;
+        width: 400px;
+    }
+    .car{
+        padding-left: 80%;
+        align-items: center;
+    }
+    #banner a{
+        color: #fff;
+        text-decoration: none;
+    }
+    
